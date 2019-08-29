@@ -18,7 +18,7 @@
     </div>
     <div class="than">
         <div class="table">
-            <form action="sanpham.php" method="Post">
+            <form action="managing.php" method="Post">
                 User name: <input type="text" class="li" name="user"> <br>
                 Password: <input type="password" class="li" name="pass"> <br>
                 <input type="Submit" value="Login">
