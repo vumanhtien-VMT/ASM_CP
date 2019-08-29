@@ -5,18 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/add.css">
     <title>Login</title>
 </head>
 
 <body>
-    <div>
-        <h1>Login</h1>
-        <form action="managing.php" method="POST">
-            <input type="text" name="aduser" placeholder="Username"> <br>
-            <input type="password" name="adpass" placeholder="Password"> <br>
-            <input type="submit" value="Login">
-        </form>
+    <div class="dau">
+        <h1 class="ts">TOYS SHOP</h1>
+        <div class="menu">
+            
+        </div>
+    </div>
+    <div class="than">
+        <div class="table">
+            <form action="sanpham.php" method="Post">
+                User name: <input type="text" class="li" name="user"> <br>
+                Password: <input type="password" class="li" name="pass"> <br>
+                <input type="Submit" value="Login">
+            </form>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>   
 </body>
 
 </html>

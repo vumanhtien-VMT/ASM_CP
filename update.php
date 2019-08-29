@@ -48,13 +48,20 @@ if (isset($_POST['update'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/add.css">
     <title>Update</title>
 </head>
 
 <body>
-    <div>
-        <h1>Update Information</h1>
+	<div class="dau">
+		<h1 class="ts">TOYS SHOP</h1>
+		<div class="lo">
+			<button><a href="index.php">Logout</a></button>
+		</div>
+		<div class="menu"></div>
+	</div>
+    <div class="than">
+    	<h1>Update Information</h1>
         <form action="/update.php" method="POST">
 			<?php
 			$qry = "SELECT * FROM product WHERE productid = '$id'";
@@ -70,6 +77,11 @@ if (isset($_POST['update'])) {
         
         <button><a href="/managing.php">Back</a></button>
 		<br><br>
+    </div>
+    <div class="wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 </body>
 

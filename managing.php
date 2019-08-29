@@ -33,9 +33,16 @@ if(isset($_POST["aduser"]) && isset($_POST["adpass"]))
 </head>
 
 <body>
-    <div>
-        <h1>Managing Product</h1>
-        <table>
+    <div class="dau">
+        <h1 class="ts">TOYS SHOP</h1>
+        <div class="lo">
+            <button><a href="index.php">Logout</a></button>
+        </div>
+        <div class="menu"></div>
+    </div>
+    <div class="than">
+        <table class="br">
+            <h1>Managing Product</h1>
             <tr>
                 <th class="tit">ID</th>
                 <th class="tit">Name</th>
@@ -76,6 +83,11 @@ if(isset($_POST["aduser"]) && isset($_POST["adpass"]))
         </table>
         <button><a href="/add.php">Add More</a></button>
         <br><br>
+    </div>
+    <div class="wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 </body>
 

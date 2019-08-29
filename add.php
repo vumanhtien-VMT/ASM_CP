@@ -5,14 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="add.css">
     <title>Add</title>
 </head>
 
 <body>
-    <div>
+     <div class="dau">
+        <h1 class="ts">TOYS SHOP</h1>
+        <div class="menu">
+            
+        </div>
+    </div>
+    <div class="than">
         <h1>Adding Product Form</h1>
-        <?php 
+        <div class="table">
+            <?php 
         require("connect.php");   
         if(isset($_POST["submit"]))
             {
@@ -52,7 +59,7 @@
                         }
                     }
             }
-			?>
+            ?>
         <form action="add.php" method="POST">
             <input type="text" name="proname" placeholder="Name"> <br>
             <input type="text" name="price" placeholder="Price"> <br>
@@ -61,6 +68,12 @@
         </form>
         
         <button><a href="/managing.php">Back</a></button>
+        </div>
+    </div>
+     <div class="wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 </body>
 
