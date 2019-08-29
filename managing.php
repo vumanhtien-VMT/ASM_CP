@@ -44,11 +44,11 @@ if(isset($_POST["aduser"]) && isset($_POST["adpass"]))
         <table class="br">
             <h1>Managing Product</h1>
             <tr>
-                <th class="tit">ID</th>
-                <th class="tit">Name</th>
-                <th class="tit">Price ($)</th>
-                <th class="tit">Description</th>
-                <th class="tit">Editing</th>
+                <th class="tet">ID</th>
+                <th class="tet">Name</th>
+                <th class="tet">Price ($)</th>
+                <th class="tet">Description</th>
+                <th class="tet">Editing</th>
             </tr>
 
             <?php
