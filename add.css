@@ -23,7 +23,7 @@
 .than table, td, th{
 	border: 1px solid black;
 }
-.than table{
+.than table, br{
     margin-left: 150px;
     margin-top: 30px;
 }
@@ -68,6 +68,7 @@
 }
 .br{
 	background-color: white;
+
 }
 html, body {
   background: #101114;
