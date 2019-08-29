@@ -81,7 +81,7 @@ if(isset($_POST["aduser"]) && isset($_POST["adpass"]))
             }
             ?> 
         </table>
-        <button><a href="/add.php">Add</a></button>
+        <button><a href="/add.php">Add Product</a></button>
         <br><br>
     </div>
     <div class="wrapper">
