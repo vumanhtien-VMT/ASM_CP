@@ -28,7 +28,7 @@ if(isset($_POST["aduser"]) && isset($_POST["adpass"]))
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="add.css">
     <title>Document</title>
 </head>
 
@@ -81,7 +81,7 @@ if(isset($_POST["aduser"]) && isset($_POST["adpass"]))
             }
             ?> 
         </table>
-        <button><a href="/add.php">Add More</a></button>
+        <button><a href="/add.php">Add</a></button>
         <br><br>
     </div>
     <div class="wrapper">
