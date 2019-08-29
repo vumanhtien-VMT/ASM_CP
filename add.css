@@ -66,14 +66,15 @@
 	background-color: #696969;
   width: 100%;
 }
-.br{
+.br body{
 	background-color: white;
   width: 70%;
   margin: 100px auto;
   height: 40px;
+  font-size: 20px;
 
 }
-html, body {
+html {
   background: #101114;
   position: absolute;
   width: 100%;
@@ -86,7 +87,7 @@ html, body {
   width: 1em;
   height: 1em;
   position: absolute;
-  top: 150px;
+  top: 140px;
   bottom: 0;
   right: 0;
   left: 0;
